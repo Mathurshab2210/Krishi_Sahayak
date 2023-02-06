@@ -30,18 +30,16 @@
     justify-content: space-between;
     align-items: center;
   }
-  a.site-logo {
-    font-size: 26px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
+  a.site-logo img {
+    width: 6em;
+    border-radius: 35px;
   }
   .site-navbar ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
+    border-top:1px solid black;
   }
   .site-navbar ul li a {
     color: #fff;
@@ -93,7 +91,7 @@
   }
   /* nav-toggler css start */
   
-  /* login and sign up page starts */
+  /* login and sign up page starts     border-top: 1px solid #10121f;*/
   .main{
 	width: 350px;
 	height: 500px;
@@ -213,7 +211,7 @@ button:hover{
       top: 60px;
       flex-direction: column;
       align-items: center;
-      border-top: 1px solid #444;
+      border-top:1px solid black;
       background-color: rgba(0,0,0,.75);
       max-height: 0;
       overflow: hidden;
@@ -230,9 +228,14 @@ button:hover{
       background-color: rgba(255,255,255,.1);
     }
     .site-navbar ul.open {
-      max-height: 30vh;
+      max-height: 35vh;
       overflow: visible;
+      z-index: 1;
     }
+    a.site-logo img {
+        width: 5em;
+        border-radius: 35px;
+      }
 
     /* navbar css for mobile end */
   }
@@ -273,6 +276,11 @@ button:hover{
         position: absolute;
         /* margin-left: 38%; */
     }
+    .login label{
+        top: 35px;
+        position: relative;
+
+    }
 
 }
 @media screen and (max-width: 650px){
@@ -307,6 +315,11 @@ button:hover{
         position: absolute;
         /* margin-left:3%; */
     }
+    a.site-logo img {
+        width: 2em;
+        border-radius: 25px;
+      }
+
 
 }
 @media screen and (max-width: 900px){

@@ -30,10 +30,13 @@
     justify-content: space-between;
     align-items: center;
   }
-  a.site-logo img {
+  .site-logo img {
     width: 6em;
     border-radius: 35px;
+    /* z-index: 1; */
+    left:52px;
   }
+
   .site-navbar ul {
     margin: 0;
     padding: 0;
@@ -170,12 +173,12 @@ button:hover{
 }
 
 #chk:checked ~ .login{
-	transform: translateY(-500px);
+	transform: translateY(-600px);
 }
 #chk:checked ~ .login label{
 	transform: scale(1);	
 }
-#chk:checked ~ .signup label{
+#self:checked ~ .signup label{
 	transform: scale(.6);
 }
 /* login and sign up ends */
@@ -228,7 +231,7 @@ button:hover{
       background-color: rgba(255,255,255,.1);
     }
     .site-navbar ul.open {
-      max-height: 35vh;
+      max-height: 15vh;
       overflow: visible;
       z-index: 1;
     }
@@ -281,6 +284,12 @@ button:hover{
         position: relative;
 
     }
+    .site-logo img{
+        width: 6em;
+    }
+    #chk:checked ~ .login{
+        transform: translateY(-450px);
+    }
 
 }
 @media screen and (max-width: 650px){
@@ -315,8 +324,8 @@ button:hover{
         position: absolute;
         /* margin-left:3%; */
     }
-    a.site-logo img {
-        width: 2em;
+    .site-logo img {
+        width: 6em;
         border-radius: 25px;
       }
 

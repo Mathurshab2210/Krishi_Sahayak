@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
     <header class="header-area">
         <!-- site-navbar start -->
@@ -31,7 +33,62 @@
               </button>
             </nav>
         </div><!-- navbar-area end -->
-      </header>
+      </header><br><br>
+      <!-- container -->
+      <div class="container">
+        <form action="">
+          <center><h2 id="heading">&#127808;Krishi Sahayak</h2></center><br>
+          <div class="row">
+            <div class="col-25">
+              <label for="Nitrogen">Nitrogen</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="nitro" name="" placeholder="Nitrogen value">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Phosphorus">Phosphorus</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="Phosphorus" name='' placeholder="Phosphorus value">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Potassium">Potassium</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="Potassium" name='' placeholder="Potassium value">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Crop Selection</label>
+            </div>
+            <div class="col-75">
+              <select id="crop" name="crop">
+                <option value="potato">potato</option>
+                <option value="tomato">tomato</option>
+                <option value="rice">rice</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Expected value</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="button">
+            <a href="#">submit</a>
+          </div>
+        </form>
+      </div>
+      <br>
 </body>
 <script src="nav.js"></script>
 </html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css" >
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" href="{% static 'PICO-LOGO-SHORT.png' %}" type="image/gif">
+</head>
+<body>
+     <!-- -----------------------------------------------company---------------------------------------------------------------- -->
+  <div class="company">
+    <div class="img">
+      <img src="5176ae652cf045c896d211045db35191.png" alt="" />
+    </div>
+    <div class="company-info">
+      <span> Krishi<span class="our"> Sahayak</span></span>
+      <p>
+        <b>Krishi Sahayak</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nesciunt ad beatae nobis praesentium earum quos cupiditate quis consequatur iure voluptate quaerat, reiciendis non facilis ut. Distinctio reiciendis mollitia totam.
+      </p>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+  <!-- ----------------------------------------------------team-------------------------------------------------------------- -->
+  <div class="team"><span>OUR TEAM</span></div>
+  <div class="container">
+    <div class="card">
+      <div class="card-image loading"><img src="pics_abt/IMG_0515.JPG" alt="" id="coder"></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>Nikhil <span class="grn-surname">Mathur</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Web design and ML</span> <br>
+            Pursuing CS Engineering(Tula's Institute) <br>
+            Email: <a href="mailto:'mathurji15@gmail.com'">mathurji15@gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="{% url 'viewprofile' 9 %}" class="loading" target="on_blank"><i><img
+                src="gh.jpeg" alt="Pico"></a></i>
+          <a href="https://www.instagram.com/yashfalke77/" class="loading" target="on_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image loading" ><img src="pics_abt/IMG_0434.JPG" alt="" id="coder"></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>Deepak <span class="grn-surname">Sharma</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Backend and IOT</span> <br>
+            Pursuing CS Engineering(Tula's Institute) <br>
+            Email: <a href="mailto:'deepakkumarsharma9242@gmail.com'">deepakkumarsharma9242@gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="{% url 'viewprofile' 7 %}" class="loading" target="on_blank"><i><img
+                src="gh.jpeg" alt="Pico"></i></a>
+          <a href="https://www.instagram.com/harshsunwani/" class="loading" target="on_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image loading"><img src="https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" id="coder"></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>Akshay<span class="grn-surname"> kr. Arya</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Data collection and R&D</span> <br>
+            Pursuing CS Engineering(Tula's Institute) 
+            <br>
+            Email: <a href="mailto:'xyz.com'">xyz@gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="{% url 'viewprofile' 6 %}" class="loading" target="on_blank"><i><img
+                src="gh.jpeg" alt="Pico"></a></i>
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------------------footer------------------------------------------ -->
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <span class="logo_name">Krishi Sahayak</span>
+        </div>
+        <div class="media-icons">
+          <a target="on_blank" href="#"><i class="fab fa-facebook"></i></a>
+          <a target="on_blank" href="https://www.instagram.com/pico_india/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Links</li>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html">Login/Sign up</a></li>
+
+        </ul>
+        <ul class="box">
+          <li class="link_name">Recommender</li>
+          <li><a href="#">Crop Recomender</a></li>
+    
+        </ul>
+        <ul class="box">
+          <li class="link_name">Predictor</li>
+          <li><a href="#">Crop Predictor</a></li>
+          
+
+        </ul>
+        <ul class="box">
+          <li class="link_name">Contact</li>
+          <li><a target="on_blank" href="tel:+91 6377882275">+91 6377882275</a></li>
+          <li><a target="on_blank" href="tel:+91 82189 83905">+91 82189 83905</a></li>
+          <li><a target="on_blank" href="mailto:'connectpicoindia@gmail.com'"><span id="mail_bottom">contactpicoindia@gmail.com</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2023 <a href="#">Krishi Sahayak.</a></span>
+      </div>
+    </div>
+  </footer>
+  <!-- ---------------------------------------------------------------------------------------- -->
+  <!-- -------------------------------------------------------------------------------------------- -->
+
+</body>
+<script>
+    const cardImages = document.querySelectorAll(".card-image");
+const cardTitles = document.querySelectorAll(".card-title");
+const cardDescriptions = document.querySelectorAll(".card-description");
+const cardMediaIcons = document.querySelectorAll(".card-mediaIcons a");
+const cardImgs = document.querySelectorAll(".card-image img");
+const cardTitleSpans = document.querySelectorAll(".card-title span");
+const cardDescSpans = document.querySelectorAll(".card-description span");
+const mediaIcons = document.querySelectorAll(".card-mediaIcons a i");
+
+const renderCard = () => {
+  //Remove the skeleton loading effect
+  cardImages.forEach((cardImage) => {
+    cardImage.classList.remove("loading");
+  });
+  cardTitles.forEach((cardTitle) => {
+    cardTitle.classList.remove("loading");
+  });
+  cardDescriptions.forEach((cardDescription) => {
+    cardDescription.classList.remove("loading");
+  });
+  cardMediaIcons.forEach((cardMediaIcon) => {
+    cardMediaIcon.classList.remove("loading");
+  });
+
+  //Show the hidden html elements
+  cardImgs.forEach((cardImg) => {
+    cardImg.style.visibility = "visible";
+  });
+  cardTitleSpans.forEach((cardTitleSpan) => {
+    cardTitleSpan.style.visibility = "visible";
+  });
+  cardDescSpans.forEach((cardDescSpan) => {
+    cardDescSpan.style.visibility = "visible";
+  });
+  mediaIcons.forEach((mediaIcon) => {
+    mediaIcon.style.visibility = "visible";
+  });
+}
+
+//Execute renderCard on setTimeout
+setTimeout(() => {
+  renderCard();
+}, 1000);
+
+//Execute renderCard after the page loaded
+//window.addEventListener("load", () => {
+  //renderCard();
+//});
+
+  
+</script>
+</html>

@@ -160,7 +160,7 @@
 /* ----------------------------------------------------------- */
   /* admin detail starts */
   #admin_information{
-	margin: 50px;
+	margin: 20px;
    
 }
 
@@ -194,10 +194,10 @@
 
 #admin_controls{
 	/*margin: 50px;*/
-	float: left;
-	width: 90%;
-	margin: 5%;
-	margin-top: 3%;
+	/* float: left; */
+	width: 100%;
+	/* margin:2%; */
+	margin-top: 23%;
 }
 
 #save{
@@ -232,6 +232,7 @@ input[type="text"],input[type="email"]{
 	border: 0px solid white;
 	color: #176655;
 	font-size: 15px;
+    margin: 1%;
 }
 
 #admin_information *{
@@ -247,6 +248,10 @@ input[type="text"],input[type="email"]{
         /*border-radius: 50px;*/
     
     }
+    #save{
+        width:300px
+    }
+
     
 
 }
@@ -263,5 +268,44 @@ input[type="text"],input[type="email"]{
     #save{
         width:100px
     }
+    footer .bottom-details{
+        margin-top: 83%;
+        height: 89px;
+    }
 
 }
+
+
+
+/* ------------------------- Footer----------------------------------------*/
+footer .bottom-details {
+    width: 100vw;
+    background: #000;
+    border-top: 0.5px solid #fff;
+    margin-right: 0px;
+    overflow-x: hidden;
+  }
+  footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin:0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  .bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+  .bottom-details .bottom_text a {
+    /* margin-right: 10px;*/
+  }  
+
+  

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_Account</title>
+    <link rel="stylesheet" href="my_acc.css">
+</head>
+<body>
+    <header class="header-area">
+        <!-- site-navbar start -->
+        <div class="navbar-area">
+         
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="#home" class="site-logo"><img src="updated.png" ></a>
+      
+      
+              <!-- site menu/nav -->
+              <ul>
+                <li><a href="index.html">Logout</a></li>
+                <!-- <li><a href="Home.html">Home</a></li> -->
+                <!-- <li><a href="#">Predictor</a></li> -->
+                <!-- <li><a href="#">Recommender</a></li> -->
+                <li><a href="about.html">About</a></li>
+              </ul>
+      
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
+        </div><!-- navbar-area end -->
+      </header><br><br>  
+
+      <div id="admin_information">
+
+		<div id="admin_image">
+			<img src="">
+		</div>	
+
+		<div id="admin_details">
+		<label>name</label>
+		<input type="text" name="name">
+
+		<label>address</label>
+		<input type="text" name="address">
+
+		<label>email</label>
+		<input type="email" name="email">
+
+		<label>contact</label>
+		<input type="text" name="mobile" pattern="[789][0-9]{9}"  required>	
+		</div>
+		
+	</div>
+
+	<div id="admin_controls">
+		<input type="file" name="pic" accept="image/*" style="float: left;"><br>
+		<button style="float: right;" id="save">save</button>
+	</div>
+	
+
+</body>
+<script src="nav.js"></script>
+</html>

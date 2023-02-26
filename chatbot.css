@@ -79,7 +79,7 @@ body {
   padding: 8px;
   background: #ccc;
   margin: 5px;
-  width: max-content;
+  width: fit-content;
   border-radius: 10px 3px 10px 10px;
 }
 .chatbot-message {

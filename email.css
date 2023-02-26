@@ -64,6 +64,7 @@
     background-color: #000;
     padding: 0.2%;
     font-size: 20px;
+    max-width: 700px;
 }
 #hd{
     padding: 0.5%;
@@ -124,6 +125,7 @@ footer .bottom-details {
     border-top: 0.5px solid #fff;
     margin-right: 0px;
     overflow-x: hidden;
+    max-width: 700px;
   }
   footer .bottom-details .bottom_text {
     max-width: 1250px;

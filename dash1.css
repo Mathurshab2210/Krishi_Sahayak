@@ -296,3 +296,128 @@ footer .bottom-details .bottom_text {
     width:13%;
   }
 }
+/* -------chatbot------ */
+.container {
+  --light-color: #fff;
+  height: 420px;
+  width: 350px;
+  background: var(--light-color);
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  box-shadow: 0px 0px 15px 0px black;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  
+}
+.collapsible {
+  --light-color: #fff;
+  height: 90px;
+  width: 100px;
+  background: var(--light-color);
+  position: fixed;
+  bottom: 50px;
+  /* right: 10px; */
+  left: 10px;
+  box-shadow: 0px 0px 15px 0px black;
+  background-color: #59df2c;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  /* width: 100%; */
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.chat-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  background-color: #2cd307;
+  color: var(--light-color);
+  font-size: 1.5rem;
+  
+}
+
+.chat-header .logo {
+  height: 35px;
+  width: 35px;
+  box-shadow: 0px 0px 10px 0px black;
+}
+.chat-header img {
+  height: 100%;
+  width: 100%;
+}
+.chat-header .title {
+  padding-left: 10px;
+}
+.chat-body {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 10px;
+  align-items: flex-end;
+  overflow-y: auto;
+  justify-content: center;
+}
+.chat-input {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+.input-sec {
+  flex: 9;
+}
+.send {
+  flex: 1;
+  padding-right: 4px;
+}
+#txtInput {
+  line-height: 30px;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  caret-color: black;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.chatbot-message,
+.user-message {
+  padding: 8px;
+  background: #ccc;
+  margin: 5px;
+  width:auto;
+  border-radius: 10px 3px 10px 10px;
+}
+.chatbot-message {
+  background: #31c006;
+  color: var(--light-color);
+  align-self: flex-start;
+  border-radius: 10px 10px 3px 10px;
+}
+button {
+  font-family: monospace;
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #ec2816;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}

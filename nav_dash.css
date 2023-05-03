@@ -105,7 +105,7 @@
   /* mobile breakpoint start */
   @media screen and (max-width: 767px) {
     .container {
-      max-width: 720px;
+      width:100vw;
     }
     /* navbar css for mobile start */
     .nav-toggler{
@@ -173,7 +173,7 @@
     .site-navbar ul.open {
         max-height: 44vh;
         overflow: visible;
-        right:-70px;
+        right:-7px;
       }
       footer .bottom-details {
         width:115vw;
@@ -181,12 +181,12 @@
   }
   @media(max-width:645px){
     .navbar-area{
-        width:117vw;
+        width:100vw;
     }
   }
   @media(max-width:758px){
     .navbar-area{
-        width:117vw;
+        width:100vw;
     }
   }
   /* mobile breakpoint end */

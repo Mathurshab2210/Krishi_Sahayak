@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="pred.css">
+<link rel="stylesheet" href="nav_dash.css">
+    <title>Predictor</title>
+</head>
+<body>
+    <header class="header-area">
+        <!-- site-navbar start -->
+        <div class="navbar-area">
+         
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="#home" class="site-logo"><img src="updated.png" ></a>
+      
+      
+              <!-- site menu/nav -->
+              <ul>
+                <li><a href="index.html">Logout</a></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">Predictor</a></li>
+                <li><a href="#">Recommender</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+      
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
+        </div><!-- navbar-area end -->
+      </header> <br>
+      <div class="intro">
+        <p> <span><img src="pics_abt/IMG_0434.JPG" alt=""></span><span id="txt"> Welcome [Customer name] !!</span></p>
+      </div> <br><br>
+      <!-- predict -->
+      <div class="parent">
+      <div id="land_details">
+        <label>Nitrogen:</label>
+        <input type="number" name="Nitrogen"  value=""><br><br>
+
+        <label>Phosphorus:</label>
+        <input type="number" name="Phosphorus"  value=""><br><br>
+
+        <label>Potassium:</label>
+        <input type="number" name="Potassium"  value=""><br><br>
+
+        <label>Moisture:</label>
+        <input type="number" name="Moisture"  value="" ><br>	<br>
+        <label>Ph:</label>
+        <input type="number" name="ph"  value="">	 <br><br>
+        <label>Temprature:</label>
+        <input type="number" name="Temprature"  value="">	
+    </div>
+    <div class="out">
+        <marquee width="100%" direction="left" height="50px" id="move">
+            These predictions are based on our ML model and we don't claim to be 100% correct.
+            </marquee> <br><br>
+            <center><span id="pr">Predicted Crop :</span></center>
+    </div>
+</div>
+</body>
+</html>

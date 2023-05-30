@@ -45,7 +45,7 @@
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  #nitro,#Potassium,#Phosphorus,#crop,#Moisture,#ph{
+  #nitro,#Potassium,#Phosphorus,#crop,#hm,#ph,#tmp{
     width: 50%;
     border-radius: 15px 10px;
   }

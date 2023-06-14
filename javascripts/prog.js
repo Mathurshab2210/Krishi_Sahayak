@@ -1,26 +1,30 @@
 let progressBar = document.querySelector(".circular-progress");
 let valueContainer = document.querySelector(".value-container");
-
+let n=document.getElementById("nval")
+let nv=Math.round(parseInt(n.value)/255*100);
 let progressValue = 0;
-let progressEndValue = 60;
-let speed = 50;
+let progressEndValue = nv;
+let speed = 60;
+  let progress = setInterval(() => {
+    progressValue++;
+    valueContainer.textContent = `${nv}%`;
+    progressBar.style.background = `conic-gradient(
+        #30d189 ${progressValue * 3.6}deg,
+        #cadcff ${progressValue * 3.6}deg
+    )`;
+    if (progressValue == progressEndValue) {
+      clearInterval(progress);
+    }
+  }, speed);
+  
 
-let progress = setInterval(() => {
-  progressValue++;
-  valueContainer.textContent = `${progressValue}%`;
-  progressBar.style.background = `conic-gradient(
-      #30d189 ${progressValue * 3.6}deg,
-      #cadcff ${progressValue * 3.6}deg
-  )`;
-  if (progressValue == progressEndValue) {
-    clearInterval(progress);
-  }
-}, speed);
 let progressBar1 = document.querySelector(".circular-progress1");
 let valueContainer1 = document.querySelector(".value-container1");
 
+let p=document.getElementById("pval")
+let pv=Math.round(parseInt(p.value)/255*100)
 let progressValue1 = 0;
-let progressEndValue1 = 80;
+let progressEndValue1 = pv;
 // let speed = 50;
 
 let progress1 = setInterval(() => {
@@ -37,8 +41,10 @@ let progress1 = setInterval(() => {
 let progressBar2 = document.querySelector(".circular-progress2");
 let valueContainer2 = document.querySelector(".value-container2");
 
+let k=document.getElementById("kval")
+let kv=Math.round(parseInt(k.value)/255*100)
 let progressValue2 = 0;
-let progressEndValue2 = 80;
+let progressEndValue2 = kv;
 // let speed = 50;
 
 let progress2 = setInterval(() => {
